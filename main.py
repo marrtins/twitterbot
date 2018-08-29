@@ -28,7 +28,7 @@ user = api.me()
 
 print (user.name)
 
-namesToTrack=['@botgsu','@gsutiag']
+namesToTrack=[]
 
 
 class Listener(tweepy.StreamListener):
